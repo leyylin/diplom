@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43472612413",
+    "project_id": "leylin-c7d12",
+    "storage_bucket": "leylin-c7d12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43472612413:android:01149e15d9e9aa9fbf8e54",
+        "android_client_info": {
+          "package_name": "com.example.leylin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43472612413-4lbhutloif7kr4vkbqk8vdcbhl9atdgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyCsT08kivp-j4L6kvDLy2hdpfFag1ito"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43472612413-4lbhutloif7kr4vkbqk8vdcbhl9atdgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

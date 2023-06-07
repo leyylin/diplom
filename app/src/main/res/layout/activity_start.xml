@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F27265"
+    tools:context="com.example.leylin.StartActivity">
+
+    <ProgressBar android:id="@+id/progressBar"
+        android:progressDrawable="@drawable/progress_bar_states"
+        android:layout_width="fill_parent" android:layout_height="8dip"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminateOnly="false"
+        android:max="100">
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/restaurantNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="54dp"
+        android:fontFamily="@font/lexington"
+        android:text="Osaka"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="108dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/some_id"
+        android:textAppearance="@style/some_id"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="59dp"
+        android:text="Fresh Sushi\n       Fresh Start "
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:fontFamily="@font/lobster" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="375dp"
+        android:layout_height="417dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/asd"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="Уже есть аккаунт? Войти"
+        android:textAllCaps="false"
+        android:textColor="#7B646A"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/main_join_now_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login_btn"
+        android:layout_below="@+id/main_login_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="-131dp"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:text="Зарегистрироваться"
+        android:textAllCaps="false"
+        android:textColor="#243447"
+        android:textSize="18sp" />
+
+</RelativeLayout>
